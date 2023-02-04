@@ -1,0 +1,79 @@
+.featurecard:hover .featurecardbox{
+    background-image: url(./images/features-wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 1rem right;
+}
+.featurecard:hover .featurecardSVG{
+    filter: drop-shadow(0px 2px 22px rgba(202,202,202,0.25));
+    stroke-opacity:0 ;
+}
+.featurecard:hover .featurecardicon{
+   background-color: linear-gradient(30.55deg,#6ac7ff 11.05% #148aff 90.09%);
+   box-shadow: 0px 2px 22px rgb(202 202 202 /25%);
+}
+
+.featurecard2:hover .featurecardbox2{
+    background-image: url(./images/features2-wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 1rem right;
+}
+.featurecard2:hover .featurecardSVG2{
+    filter: drop-shadow(0px 2px 10px rgba(202,202,202,0.25));
+    stroke-opacity:0 ;
+}
+.featurecard2:hover .featurecardicon2{
+   background-color: linear-gradient(30.55deg,#6ac7ff 11.05% #148aff 90.09%);
+   box-shadow: 0px 2px 22px rgb(202 202 202 /25%);
+}   
+
+.newFeatureCard {
+    box-shadow: 2px 4px 9px 1px hsl(0deg 0% 0% / 5%);
+}
+
+.coreFeaturesBg {
+    background-size: 2000px 100%;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+
+@media screen and (min-width: 1000px) {
+    .coreFeaturesBg {
+        background-size: 100% 100%;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
+
+
+.companiesList{
+    animation: 25s infinite linear moveCompany;
+}
+
+@keyframes moveCompany {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -120%;
+    }
+}
+
+.ctaBg{
+    background-size: 200% 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .ctaBg {
+        background-size: 100% 100%;
+    }    
+}
+
+.ctaSection{
+    min-height: 880px;
+}
+
+@media screen and (min-width: 1024px) {
+    .ctaSection {
+        min-height: 530px;
+    }
+}
